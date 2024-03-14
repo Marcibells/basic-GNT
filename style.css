@@ -126,7 +126,8 @@
 }
 /* HEADER */
 .header{
-  background:var(--dark);
+  background:var(--transparent);
+  padding:2rem;
   position:relative;
   position:fixed;
   width:100%;
@@ -247,6 +248,17 @@ transition:.5s ease;
   .burgir__menu{
     display:block;
   }
+
+
+/* BANNER */
+.banner{
+  background-image:url("img/banner_home_v1.jpg");
+  background-size:cover;
+  height:100vh;
+  background-position:center center;
+}
+
+
 
 
 
